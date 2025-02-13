@@ -10,3 +10,11 @@ s.add("bleh")
 
 print(s)
 print(len(s))
+
+a=set()
+a.add(20)
+a.add("20")
+a.add(20.00)
+
+print(a)
+print(len(a))
