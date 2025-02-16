@@ -19,3 +19,5 @@ lang = input("Enter the lang he like: ")
 d.update({name : lang})
 
 print (d)
+
+# name agr 2 baar repeat ho jaye to baad waali jo value hogi wo show krega
