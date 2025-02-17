@@ -1,5 +1,10 @@
 age = int(input("Enter the age: "))
 
+if (age%2 == 0):
+    print("")
+
+
+#this is known as if elif else ladder
 if (age>=18):
     print("U are eligible for vote")
 
