@@ -13,6 +13,9 @@ for j in l:
 else:
     print("done")       #this is printed when loop in exausted
 
+    # The else in a loop only runs if the loop completes without a break.
+    # If you simply place a print() statement after the loop, it will run no matter what, even if the loop was terminated with break.
+
 
 # break statement
 for k in range(50):
