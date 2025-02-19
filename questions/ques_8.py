@@ -10,6 +10,7 @@ num = int(input("Enter the number: "))
 #    print("The number is a prime number")
 
 
+# another method
 i = 2
 while (i<num):
     if (num%i == 0):
