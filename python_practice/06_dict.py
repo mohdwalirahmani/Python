@@ -9,6 +9,9 @@ saima = {
     "grade" : "F+"
 }
 
+for key, value in saima.items():
+    print (f"the value of the key {key} is {value}")
+
 print(saima["name"])
 
 
