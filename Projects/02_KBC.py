@@ -33,9 +33,12 @@ for i in range (0, len(questions)):
 
     if reply == ques[-1]:
         print(f"Correct! You won Rs {levels[i]}")
-        if i == 3:  money = 10000
-        elif i == 7: money = 130000
-        elif i == 9: money = 200000
+        if i == 3:
+            money = 10000
+        elif i == 7:
+            money = 130000
+        elif i == 9:
+            money = 200000
     else:
         print("Wrong answer! Game over.")
         break
