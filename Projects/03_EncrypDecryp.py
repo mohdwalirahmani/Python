@@ -13,16 +13,23 @@
 #remove 3 random characters from start and end. Now remove the last
 #letter and append it to the beginning
 
+import random
+import string
+
 st = input("Enter the msg: ")
 words = st.split(" ")
+
+def random3():
+    return ''.join(random.choice(string.ascii_lowercase) for _ in range(3))
+
 coding = input("Enter 1 for coding and 2 for Decoding: ")
 coding = True if (coding == "1") else False
 if (coding):
     nwords = []
     for word in words:
         if (len(word) >= 3):
-            r1 = "mwr"
-            r2 = "xyz"
+            r1 = random3()
+            r2 = random3()
             stnew = r1 + word[1:] + word[0] + r2
             nwords.append(stnew)
         else:
