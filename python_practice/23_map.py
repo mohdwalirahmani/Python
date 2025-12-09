@@ -36,3 +36,9 @@ print(list(add))
 map() works faster than manual loops.
 Works great with lambda functions.
 '''
+
+# FILTER
+# filter(function, iterable)
+
+f = filter(lambda x: x>4, l)
+print(list(f))
