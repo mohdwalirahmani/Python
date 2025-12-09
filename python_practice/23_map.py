@@ -42,3 +42,14 @@ Works great with lambda functions.
 
 f = filter(lambda x: x>4, l)
 print(list(f))
+
+# REDUCE
+# reduce() is a function that reduces a list to a single value by repeatedly applying a function to the elements.
+
+from functools import reduce
+
+r = reduce(lambda x,y: x+y, l)      # sum of all numbers in a list
+print (r)
+
+m = reduce(lambda x,y : x*y, l)
+print (m)
